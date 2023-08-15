@@ -8,9 +8,9 @@ namespace FloatDemo {
             double val1 = 0.1;
             double val2 = 0.2;
 
-            decimal result = (decimal)(val1 + val2);
+            double result = val1 + val2;
 
-            if(result == 0.3m) {
+            if(result == 0.3) {
                 Console.WriteLine("richtig\n\n");
             } else {
                 Console.WriteLine("falsch\n\n");
